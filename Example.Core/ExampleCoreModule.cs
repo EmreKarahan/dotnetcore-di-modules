@@ -6,7 +6,7 @@ namespace Example.Core
     {
         public static IServiceCollection AddCoreModule(this IServiceCollection services)
         {
-            services.AddTransient<ISafeExecutor, SafeExecutor>();                                 
+            //services.AddTransient<ISafeExecutor, SafeExecutor>();                                 
             return services;
         }
     }
