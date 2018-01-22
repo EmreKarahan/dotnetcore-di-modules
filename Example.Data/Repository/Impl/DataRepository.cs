@@ -27,7 +27,7 @@ namespace Example.Data.Repository.Impl
               {
                   Email = "Megan.holt@example.com",
                   Firstname = "Megan",
-                  Lastname = "Holt"
+                  Lastname = "Holt",
                   Id = 3
               }
           };

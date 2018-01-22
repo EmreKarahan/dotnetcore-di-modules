@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Example.Data.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Example.Web.Models;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Example.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private IDataRepository _dataRepository;
+        private readonly IDataRepository _dataRepository;
 
         public HomeController(IDataRepository dataRepository)
         {
@@ -21,7 +16,8 @@ namespace Example.Web.Controllers
         
         public IActionResult Index()
         {
-            return View();
+            var model = _dataRepository.GetUserList();
+            return View(model);
         }
 
         public IActionResult About()

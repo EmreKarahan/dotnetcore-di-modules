@@ -3,18 +3,6 @@
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_dotnetcore-di-example.1806571748.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="Example.Core" t="IncludeRecursive">
-        <e p="Example.Core.csproj" t="IncludeRecursive" />
-        <e p="ExampleCoreModule.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netstandard2.0" t="Include">
-              <e p="Example.Core.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-      </e>
       <e p="Example.Data" t="IncludeRecursive">
         <e p="Entity" t="Include">
           <e p="User.cs" t="Include" />
